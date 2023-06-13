@@ -1,4 +1,4 @@
-package objects;
+package objects.staticFactories;
 
 public class Vehicle {
     private final int id;

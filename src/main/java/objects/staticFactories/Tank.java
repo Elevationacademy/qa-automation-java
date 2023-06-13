@@ -1,4 +1,4 @@
-package objects;
+package objects.staticFactories;
 
 public class Tank extends Vehicle{
     public Tank(int id) {
