@@ -1,9 +1,11 @@
 package objects.staticFactories;
 
 public class RaceCar extends Vehicle {
-    public RaceCar(int id) {
-        super(id);
+
+    protected RaceCar(int id, double speed, double weight) {
+        super(id, speed, weight);
     }
+
 
     public void goFast() {
         System.out.println("Vrooooom!");

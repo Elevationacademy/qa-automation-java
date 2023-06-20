@@ -5,7 +5,6 @@ public class SomeService {
 
     public SomeService(NotificationService notificationService) {
         this.notificationService = notificationService;
-
     }
 
     public void sendNotification(String text){
