@@ -1,6 +1,7 @@
 package generics;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MyMap {
@@ -16,5 +17,9 @@ public class MyMap {
 
     public <T> T getGeneric(String key){
         return (T)map.get(key);
+    }
+
+    public <T> void printList(List<T> list){
+        list.forEach(System.out::println);
     }
 }
