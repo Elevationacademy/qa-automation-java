@@ -1,5 +1,6 @@
 package generics;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -22,4 +23,6 @@ public class MyMap {
     public <T> void printList(List<T> list){
         list.forEach(System.out::println);
     }
+
+
 }
